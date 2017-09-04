@@ -3,6 +3,9 @@
  <meta charset="utf-8">
  <title>Box Model</title>
  <style>
+ nav {
+   margin: 0;
+ }
  .box{
   width: 25%;
   height: 100px;
@@ -14,12 +17,37 @@
  .box img{
    max-width: 100%;
  }
+ .navbar{
+   position: fixed;
+   width: 100%;
+   background-color: silver;
+ }
+ .barra li{
+   float: left;
+   list-style-type: none;
+   padding: 20px;
+ }
+ .barrainicial{
+   height: 60px;
+ }
  </style>
 
  </head>
 
 <body>
 
+
+
+  <nav class="navbar">
+    <ul class="barra">
+      <li>Inicio</li>
+      <li>Contacto</li>
+      <li>About us</li>
+    </ul>
+
+  </nav>
+  <div class="barrainicial">
+  </div>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <div class="box">
